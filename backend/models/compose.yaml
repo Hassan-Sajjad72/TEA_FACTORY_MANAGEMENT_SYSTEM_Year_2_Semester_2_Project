@@ -1,0 +1,9 @@
+version: "5.0"
+services:
+React
+ build: frontend ./
+ container_name: "front end container"
+Node.js
+ build:backend ./
+
+   
